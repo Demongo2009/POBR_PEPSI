@@ -1,0 +1,3 @@
+C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir
+C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
