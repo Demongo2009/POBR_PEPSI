@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/POBR_PEPSI.dir/main.cpp.obj"
-  "POBR_PEPSI.exe"
-  "POBR_PEPSI.exe.manifest"
-  "POBR_PEPSI.lib"
+  "CMakeFiles/POBR_PEPSI.dir/src/Scalers/Bilinear.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/Scalers/IScaler.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/Scalers/NearestNeighbour.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/main.cpp.o"
+  "POBR_PEPSI"
   "POBR_PEPSI.pdb"
 )
 

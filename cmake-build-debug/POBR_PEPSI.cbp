@@ -4,87 +4,132 @@
 	<Project>
 		<Option title="POBR_PEPSI"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
+				<Option working_dir="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="POBR_PEPSI">
-				<Option output="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug/POBR_PEPSI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 POBR_PEPSI"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="POBR_PEPSI/fast">
-				<Option output="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug/POBR_PEPSI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 POBR_PEPSI/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
+				<Option working_dir="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\kubag\CLionProjects\POBR_PEPSI\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="POBR_PEPSI">
+				<Option output="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/POBR_PEPSI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 POBR_PEPSI"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="POBR_PEPSI/fast">
+				<Option output="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/POBR_PEPSI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 POBR_PEPSI/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/kubag/CLionProjects/POBR_PEPSI/main.cpp">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/Bilinear.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="C:/Users/kubag/CLionProjects/POBR_PEPSI/CMakeLists.txt">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/Bilinear.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/IScaler.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/IScaler.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/NearestNeighbour.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/NearestNeighbour.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ScalingAlgorithmType.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentDescriptor.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentDescriptor.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/main.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

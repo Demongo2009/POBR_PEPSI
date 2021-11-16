@@ -8,12 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/kubag/CLionProjects/POBR_PEPSI/main.cpp" "C:/Users/kubag/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir/main.cpp.obj"
+  "/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/Bilinear.cpp" "/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir/src/Scalers/Bilinear.cpp.o"
+  "/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/IScaler.cpp" "/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir/src/Scalers/IScaler.cpp.o"
+  "/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/NearestNeighbour.cpp" "/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir/src/Scalers/NearestNeighbour.cpp.o"
+  "/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentDescriptor.cpp" "/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.o"
+  "/home/demongo/CLionProjects/POBR_PEPSI/src/main.cpp" "/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles/POBR_PEPSI.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/include/opencv4"
   )
 
 # The set of dependency files which are needed:
