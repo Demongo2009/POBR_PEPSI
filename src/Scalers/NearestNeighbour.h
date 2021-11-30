@@ -10,6 +10,10 @@
 namespace Scalers{
 	class NearestNeighbour: public IScaler {
 
+	public:
+		NearestNeighbour(){}
+
+		virtual void scale(cv::Mat &mat) override;
 	};
 }
 

@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/Filters/Highpass.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/Filters/Lowpass.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.o"
   "CMakeFiles/POBR_PEPSI.dir/src/Scalers/Bilinear.cpp.o"
-  "CMakeFiles/POBR_PEPSI.dir/src/Scalers/IScaler.cpp.o"
   "CMakeFiles/POBR_PEPSI.dir/src/Scalers/NearestNeighbour.cpp.o"
   "CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.o"
+  "CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o"
   "CMakeFiles/POBR_PEPSI.dir/src/main.cpp.o"
   "POBR_PEPSI"
   "POBR_PEPSI.pdb"

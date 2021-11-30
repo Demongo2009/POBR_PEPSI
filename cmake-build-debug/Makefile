@@ -129,6 +129,102 @@ POBR_PEPSI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/build
 .PHONY : POBR_PEPSI/fast
 
+src/BoundingBox.o: src/BoundingBox.cpp.o
+.PHONY : src/BoundingBox.o
+
+# target to build an object file
+src/BoundingBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.o
+.PHONY : src/BoundingBox.cpp.o
+
+src/BoundingBox.i: src/BoundingBox.cpp.i
+.PHONY : src/BoundingBox.i
+
+# target to preprocess a source file
+src/BoundingBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.i
+.PHONY : src/BoundingBox.cpp.i
+
+src/BoundingBox.s: src/BoundingBox.cpp.s
+.PHONY : src/BoundingBox.s
+
+# target to generate assembly for a file
+src/BoundingBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.s
+.PHONY : src/BoundingBox.cpp.s
+
+src/Filters/Highpass.o: src/Filters/Highpass.cpp.o
+.PHONY : src/Filters/Highpass.o
+
+# target to build an object file
+src/Filters/Highpass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Highpass.cpp.o
+.PHONY : src/Filters/Highpass.cpp.o
+
+src/Filters/Highpass.i: src/Filters/Highpass.cpp.i
+.PHONY : src/Filters/Highpass.i
+
+# target to preprocess a source file
+src/Filters/Highpass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Highpass.cpp.i
+.PHONY : src/Filters/Highpass.cpp.i
+
+src/Filters/Highpass.s: src/Filters/Highpass.cpp.s
+.PHONY : src/Filters/Highpass.s
+
+# target to generate assembly for a file
+src/Filters/Highpass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Highpass.cpp.s
+.PHONY : src/Filters/Highpass.cpp.s
+
+src/Filters/Lowpass.o: src/Filters/Lowpass.cpp.o
+.PHONY : src/Filters/Lowpass.o
+
+# target to build an object file
+src/Filters/Lowpass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Lowpass.cpp.o
+.PHONY : src/Filters/Lowpass.cpp.o
+
+src/Filters/Lowpass.i: src/Filters/Lowpass.cpp.i
+.PHONY : src/Filters/Lowpass.i
+
+# target to preprocess a source file
+src/Filters/Lowpass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Lowpass.cpp.i
+.PHONY : src/Filters/Lowpass.cpp.i
+
+src/Filters/Lowpass.s: src/Filters/Lowpass.cpp.s
+.PHONY : src/Filters/Lowpass.s
+
+# target to generate assembly for a file
+src/Filters/Lowpass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Lowpass.cpp.s
+.PHONY : src/Filters/Lowpass.cpp.s
+
+src/Filters/Median.o: src/Filters/Median.cpp.o
+.PHONY : src/Filters/Median.o
+
+# target to build an object file
+src/Filters/Median.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.o
+.PHONY : src/Filters/Median.cpp.o
+
+src/Filters/Median.i: src/Filters/Median.cpp.i
+.PHONY : src/Filters/Median.i
+
+# target to preprocess a source file
+src/Filters/Median.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.i
+.PHONY : src/Filters/Median.cpp.i
+
+src/Filters/Median.s: src/Filters/Median.cpp.s
+.PHONY : src/Filters/Median.s
+
+# target to generate assembly for a file
+src/Filters/Median.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.s
+.PHONY : src/Filters/Median.cpp.s
+
 src/Scalers/Bilinear.o: src/Scalers/Bilinear.cpp.o
 .PHONY : src/Scalers/Bilinear.o
 
@@ -152,30 +248,6 @@ src/Scalers/Bilinear.s: src/Scalers/Bilinear.cpp.s
 src/Scalers/Bilinear.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Scalers/Bilinear.cpp.s
 .PHONY : src/Scalers/Bilinear.cpp.s
-
-src/Scalers/IScaler.o: src/Scalers/IScaler.cpp.o
-.PHONY : src/Scalers/IScaler.o
-
-# target to build an object file
-src/Scalers/IScaler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Scalers/IScaler.cpp.o
-.PHONY : src/Scalers/IScaler.cpp.o
-
-src/Scalers/IScaler.i: src/Scalers/IScaler.cpp.i
-.PHONY : src/Scalers/IScaler.i
-
-# target to preprocess a source file
-src/Scalers/IScaler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Scalers/IScaler.cpp.i
-.PHONY : src/Scalers/IScaler.cpp.i
-
-src/Scalers/IScaler.s: src/Scalers/IScaler.cpp.s
-.PHONY : src/Scalers/IScaler.s
-
-# target to generate assembly for a file
-src/Scalers/IScaler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Scalers/IScaler.cpp.s
-.PHONY : src/Scalers/IScaler.cpp.s
 
 src/Scalers/NearestNeighbour.o: src/Scalers/NearestNeighbour.cpp.o
 .PHONY : src/Scalers/NearestNeighbour.o
@@ -225,6 +297,30 @@ src/SegmentDescriptor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.s
 .PHONY : src/SegmentDescriptor.cpp.s
 
+src/SegmentationProcessor.o: src/SegmentationProcessor.cpp.o
+.PHONY : src/SegmentationProcessor.o
+
+# target to build an object file
+src/SegmentationProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o
+.PHONY : src/SegmentationProcessor.cpp.o
+
+src/SegmentationProcessor.i: src/SegmentationProcessor.cpp.i
+.PHONY : src/SegmentationProcessor.i
+
+# target to preprocess a source file
+src/SegmentationProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.i
+.PHONY : src/SegmentationProcessor.cpp.i
+
+src/SegmentationProcessor.s: src/SegmentationProcessor.cpp.s
+.PHONY : src/SegmentationProcessor.s
+
+# target to generate assembly for a file
+src/SegmentationProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.s
+.PHONY : src/SegmentationProcessor.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -258,18 +354,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... POBR_PEPSI"
+	@echo "... src/BoundingBox.o"
+	@echo "... src/BoundingBox.i"
+	@echo "... src/BoundingBox.s"
+	@echo "... src/Filters/Highpass.o"
+	@echo "... src/Filters/Highpass.i"
+	@echo "... src/Filters/Highpass.s"
+	@echo "... src/Filters/Lowpass.o"
+	@echo "... src/Filters/Lowpass.i"
+	@echo "... src/Filters/Lowpass.s"
+	@echo "... src/Filters/Median.o"
+	@echo "... src/Filters/Median.i"
+	@echo "... src/Filters/Median.s"
 	@echo "... src/Scalers/Bilinear.o"
 	@echo "... src/Scalers/Bilinear.i"
 	@echo "... src/Scalers/Bilinear.s"
-	@echo "... src/Scalers/IScaler.o"
-	@echo "... src/Scalers/IScaler.i"
-	@echo "... src/Scalers/IScaler.s"
 	@echo "... src/Scalers/NearestNeighbour.o"
 	@echo "... src/Scalers/NearestNeighbour.i"
 	@echo "... src/Scalers/NearestNeighbour.s"
 	@echo "... src/SegmentDescriptor.o"
 	@echo "... src/SegmentDescriptor.i"
 	@echo "... src/SegmentDescriptor.s"
+	@echo "... src/SegmentationProcessor.o"
+	@echo "... src/SegmentationProcessor.i"
+	@echo "... src/SegmentationProcessor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

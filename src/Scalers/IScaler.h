@@ -11,9 +11,9 @@
 class IScaler {
 
 public:
-	virtual ~IScaler();
+	virtual ~IScaler() {};
 
-	void scale(cv::Mat &mat);
+	virtual void scale(cv::Mat &mat) = 0;
 };
 
 
