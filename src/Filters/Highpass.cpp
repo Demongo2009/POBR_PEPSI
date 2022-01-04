@@ -8,9 +8,9 @@ void Filters::Highpass::filter(cv::Mat &mat) {
 	int kernelWidth = 3;
 	int kernelHeight = 3;
 	cv::Mat kernel = (cv::Mat_<double>(kernelHeight,kernelWidth) <<
-		    -1, -1, -1,
-			-1, 9, -1,
-			-1, -1, -1);
+		    -0.5, -0.5, -0.5,
+			-0.5, 5, -0.5,
+			-0.5, -0.5, -0.5);
 	int imageWidth = mat.cols;
 	int imageHeight = mat.rows;
 
@@ -24,7 +24,10 @@ void Filters::Highpass::filter(cv::Mat &mat) {
 
 			if (x < kernelWidth/2 || y < kernelHeight/2 ||
 				x >= imageWidth-kernelWidth/2 || y >= imageHeight-kernelHeight/2) {
-				filtered_[j][i] = mat.at<cv::Vec3b>(y,x);
+				cv::Vec3b vec = mat.at<cv::Vec3b>(y,x);
+				for(int k=0; k<3; k++) {
+					filtered_[j][i][k] = (uchar)(std::max(std::min((int)vec[k],255),0));
+				}
 				continue;
 			}
 
@@ -33,7 +36,7 @@ void Filters::Highpass::filter(cv::Mat &mat) {
 				for(int l=0; l <kernelWidth; l++){
 					for(int m=0; m<kernelHeight; m++){
 						temp += kernel.at<double>(m,l) *
-								mat.at<cv::Vec3b>(y-kernelHeight/2+m,x-kernelWidth/2+l)[k];
+										  mat.at<cv::Vec3b>(y-kernelHeight/2+m,x-kernelWidth/2+l)[k];
 					}
 				}
 

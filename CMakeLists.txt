@@ -21,5 +21,5 @@ find_package(OpenCV REQUIRED)
 
 
 #include_directories(${OpenCV_INCLUDE_DIRS})
-add_executable(POBR_PEPSI src/main.cpp src/SegmentDescriptor.cpp src/SegmentDescriptor.h src/Scalers/NearestNeighbour.cpp src/Scalers/NearestNeighbour.h src/Scalers/Bilinear.cpp src/Scalers/Bilinear.h src/Scalers/IScaler.h src/constants.h src/Filters/IFilter.h src/Filters/Median.cpp src/Filters/Median.h src/Filters/Lowpass.cpp src/Filters/Lowpass.h src/Filters/Highpass.cpp src/Filters/Highpass.h src/SegmentationProcessor.cpp src/SegmentationProcessor.h src/enums.h src/BoundingBox.cpp src/BoundingBox.h)
+add_executable(POBR_PEPSI src/main.cpp src/SegmentDescriptor.cpp src/SegmentDescriptor.h src/Scalers/NearestNeighbour.cpp src/Scalers/NearestNeighbour.h src/Scalers/Bilinear.cpp src/Scalers/Bilinear.h src/Scalers/IScaler.h src/constants.h src/Filters/IFilter.h src/Filters/Median.cpp src/Filters/Median.h src/Filters/Lowpass.cpp src/Filters/Lowpass.h src/Filters/Highpass.cpp src/Filters/Highpass.h src/SegmentationProcessor.cpp src/SegmentationProcessor.h src/enums.h src/BoundingBox.cpp src/BoundingBox.h src/TraitDetector.cpp src/TraitDetector.h src/ObjectRecogniser.cpp src/ObjectRecogniser.h src/Dilater.cpp src/Dilater.h src/HistogramEqualizer.cpp src/HistogramEqualizer.h src/ColorReducer.cpp src/ColorReducer.h)
 target_link_libraries(POBR_PEPSI ${OpenCV_LIBS})

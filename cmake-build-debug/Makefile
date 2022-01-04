@@ -153,6 +153,54 @@ src/BoundingBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.s
 .PHONY : src/BoundingBox.cpp.s
 
+src/ColorReducer.o: src/ColorReducer.cpp.o
+.PHONY : src/ColorReducer.o
+
+# target to build an object file
+src/ColorReducer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o
+.PHONY : src/ColorReducer.cpp.o
+
+src/ColorReducer.i: src/ColorReducer.cpp.i
+.PHONY : src/ColorReducer.i
+
+# target to preprocess a source file
+src/ColorReducer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.i
+.PHONY : src/ColorReducer.cpp.i
+
+src/ColorReducer.s: src/ColorReducer.cpp.s
+.PHONY : src/ColorReducer.s
+
+# target to generate assembly for a file
+src/ColorReducer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.s
+.PHONY : src/ColorReducer.cpp.s
+
+src/Dilater.o: src/Dilater.cpp.o
+.PHONY : src/Dilater.o
+
+# target to build an object file
+src/Dilater.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o
+.PHONY : src/Dilater.cpp.o
+
+src/Dilater.i: src/Dilater.cpp.i
+.PHONY : src/Dilater.i
+
+# target to preprocess a source file
+src/Dilater.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.i
+.PHONY : src/Dilater.cpp.i
+
+src/Dilater.s: src/Dilater.cpp.s
+.PHONY : src/Dilater.s
+
+# target to generate assembly for a file
+src/Dilater.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.s
+.PHONY : src/Dilater.cpp.s
+
 src/Filters/Highpass.o: src/Filters/Highpass.cpp.o
 .PHONY : src/Filters/Highpass.o
 
@@ -224,6 +272,54 @@ src/Filters/Median.s: src/Filters/Median.cpp.s
 src/Filters/Median.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.s
 .PHONY : src/Filters/Median.cpp.s
+
+src/HistogramEqualizer.o: src/HistogramEqualizer.cpp.o
+.PHONY : src/HistogramEqualizer.o
+
+# target to build an object file
+src/HistogramEqualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o
+.PHONY : src/HistogramEqualizer.cpp.o
+
+src/HistogramEqualizer.i: src/HistogramEqualizer.cpp.i
+.PHONY : src/HistogramEqualizer.i
+
+# target to preprocess a source file
+src/HistogramEqualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.i
+.PHONY : src/HistogramEqualizer.cpp.i
+
+src/HistogramEqualizer.s: src/HistogramEqualizer.cpp.s
+.PHONY : src/HistogramEqualizer.s
+
+# target to generate assembly for a file
+src/HistogramEqualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.s
+.PHONY : src/HistogramEqualizer.cpp.s
+
+src/ObjectRecogniser.o: src/ObjectRecogniser.cpp.o
+.PHONY : src/ObjectRecogniser.o
+
+# target to build an object file
+src/ObjectRecogniser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o
+.PHONY : src/ObjectRecogniser.cpp.o
+
+src/ObjectRecogniser.i: src/ObjectRecogniser.cpp.i
+.PHONY : src/ObjectRecogniser.i
+
+# target to preprocess a source file
+src/ObjectRecogniser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.i
+.PHONY : src/ObjectRecogniser.cpp.i
+
+src/ObjectRecogniser.s: src/ObjectRecogniser.cpp.s
+.PHONY : src/ObjectRecogniser.s
+
+# target to generate assembly for a file
+src/ObjectRecogniser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.s
+.PHONY : src/ObjectRecogniser.cpp.s
 
 src/Scalers/Bilinear.o: src/Scalers/Bilinear.cpp.o
 .PHONY : src/Scalers/Bilinear.o
@@ -321,6 +417,30 @@ src/SegmentationProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.s
 .PHONY : src/SegmentationProcessor.cpp.s
 
+src/TraitDetector.o: src/TraitDetector.cpp.o
+.PHONY : src/TraitDetector.o
+
+# target to build an object file
+src/TraitDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o
+.PHONY : src/TraitDetector.cpp.o
+
+src/TraitDetector.i: src/TraitDetector.cpp.i
+.PHONY : src/TraitDetector.i
+
+# target to preprocess a source file
+src/TraitDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.i
+.PHONY : src/TraitDetector.cpp.i
+
+src/TraitDetector.s: src/TraitDetector.cpp.s
+.PHONY : src/TraitDetector.s
+
+# target to generate assembly for a file
+src/TraitDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.s
+.PHONY : src/TraitDetector.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -357,6 +477,12 @@ help:
 	@echo "... src/BoundingBox.o"
 	@echo "... src/BoundingBox.i"
 	@echo "... src/BoundingBox.s"
+	@echo "... src/ColorReducer.o"
+	@echo "... src/ColorReducer.i"
+	@echo "... src/ColorReducer.s"
+	@echo "... src/Dilater.o"
+	@echo "... src/Dilater.i"
+	@echo "... src/Dilater.s"
 	@echo "... src/Filters/Highpass.o"
 	@echo "... src/Filters/Highpass.i"
 	@echo "... src/Filters/Highpass.s"
@@ -366,6 +492,12 @@ help:
 	@echo "... src/Filters/Median.o"
 	@echo "... src/Filters/Median.i"
 	@echo "... src/Filters/Median.s"
+	@echo "... src/HistogramEqualizer.o"
+	@echo "... src/HistogramEqualizer.i"
+	@echo "... src/HistogramEqualizer.s"
+	@echo "... src/ObjectRecogniser.o"
+	@echo "... src/ObjectRecogniser.i"
+	@echo "... src/ObjectRecogniser.s"
 	@echo "... src/Scalers/Bilinear.o"
 	@echo "... src/Scalers/Bilinear.i"
 	@echo "... src/Scalers/Bilinear.s"
@@ -378,6 +510,9 @@ help:
 	@echo "... src/SegmentationProcessor.o"
 	@echo "... src/SegmentationProcessor.i"
 	@echo "... src/SegmentationProcessor.s"
+	@echo "... src/TraitDetector.o"
+	@echo "... src/TraitDetector.i"
+	@echo "... src/TraitDetector.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

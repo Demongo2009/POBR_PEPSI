@@ -183,6 +183,71 @@ CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/CLionProjects/POBR_PEPSI/src/BoundingBox.cpp -o CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.s
 
+CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o: CMakeFiles/POBR_PEPSI.dir/flags.make
+CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o: ../src/TraitDetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o -c /home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.cpp
+
+CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.cpp > CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.i
+
+CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.cpp -o CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.s
+
+CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o: CMakeFiles/POBR_PEPSI.dir/flags.make
+CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o: ../src/ObjectRecogniser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o -c /home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.cpp
+
+CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.cpp > CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.i
+
+CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.cpp -o CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.s
+
+CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o: CMakeFiles/POBR_PEPSI.dir/flags.make
+CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o: ../src/Dilater.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o -c /home/demongo/CLionProjects/POBR_PEPSI/src/Dilater.cpp
+
+CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/CLionProjects/POBR_PEPSI/src/Dilater.cpp > CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.i
+
+CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/CLionProjects/POBR_PEPSI/src/Dilater.cpp -o CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.s
+
+CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o: CMakeFiles/POBR_PEPSI.dir/flags.make
+CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o: ../src/HistogramEqualizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o -c /home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.cpp
+
+CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.cpp > CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.i
+
+CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.cpp -o CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.s
+
+CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o: CMakeFiles/POBR_PEPSI.dir/flags.make
+CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o: ../src/ColorReducer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o -c /home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.cpp
+
+CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.cpp > CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.i
+
+CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.cpp -o CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.s
+
 # Object files for target POBR_PEPSI
 POBR_PEPSI_OBJECTS = \
 "CMakeFiles/POBR_PEPSI.dir/src/main.cpp.o" \
@@ -193,7 +258,12 @@ POBR_PEPSI_OBJECTS = \
 "CMakeFiles/POBR_PEPSI.dir/src/Filters/Lowpass.cpp.o" \
 "CMakeFiles/POBR_PEPSI.dir/src/Filters/Highpass.cpp.o" \
 "CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o" \
-"CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.o"
+"CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.o" \
+"CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o" \
+"CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o" \
+"CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o" \
+"CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o" \
+"CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o"
 
 # External object files for target POBR_PEPSI
 POBR_PEPSI_EXTERNAL_OBJECTS =
@@ -207,6 +277,11 @@ POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/Filters/Lowpass.cpp.o
 POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/Filters/Highpass.cpp.o
 POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o
 POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.o
+POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o
+POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o
+POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o
+POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o
+POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o
 POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/build.make
 POBR_PEPSI: /usr/local/lib/libopencv_gapi.so.4.5.4
 POBR_PEPSI: /usr/local/lib/libopencv_highgui.so.4.5.4
@@ -224,7 +299,7 @@ POBR_PEPSI: /usr/local/lib/libopencv_flann.so.4.5.4
 POBR_PEPSI: /usr/local/lib/libopencv_imgproc.so.4.5.4
 POBR_PEPSI: /usr/local/lib/libopencv_core.so.4.5.4
 POBR_PEPSI: CMakeFiles/POBR_PEPSI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable POBR_PEPSI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demongo/CLionProjects/POBR_PEPSI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable POBR_PEPSI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/POBR_PEPSI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -92,6 +92,18 @@
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/BoundingBox.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Dilater.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Dilater.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Filters/Highpass.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
@@ -111,6 +123,18 @@
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Filters/Median.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/Bilinear.cpp">
@@ -138,6 +162,12 @@
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentationProcessor.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/constants.h">

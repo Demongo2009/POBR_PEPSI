@@ -6,13 +6,22 @@
 #define POBR_PEPSI_BOUNDINGBOX_H
 
 
+#include <utility>
+
 class BoundingBox {
 	int x1;
 	int y1;
 	int x2;
 	int y2;
+	int height;
+	int width;
 public:
-	BoundingBox():x1(0),x2(0),y1(0),y2(0){};
+	int getHeight() const;
+
+	int getWidth() const;
+
+public:
+	BoundingBox():x1(0),x2(0),y1(0),y2(0),height(0),width(0){};
 	BoundingBox(int x1, int y1, int x2, int y2);
 
 	int getX1() const;
@@ -31,6 +40,7 @@ public:
 
 	void setY2(int y2);
 
+	bool isInside(std::pair<int, int> pair1);
 };
 
 

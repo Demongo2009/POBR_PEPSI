@@ -23,7 +23,7 @@ public:
 	StateMat initializeStateMat(cv::Mat &mat);
 
 	SegmentVector segmentation(ColorMat &mat,
-							   StateMat stateMat);
+							   StateMat &stateMat);
 
 	SegmentVector filterSegments(
 			SegmentVector segmentVector);
@@ -36,7 +36,9 @@ public:
 
 	bool checkBlue(cv::Vec3b &vec);
 
-	bool checkWhite(cv::Vec3b &vec);
+	static bool checkWhite(cv::Vec3b &vec);
+
+	void showSegments(SegmentVector vector1, cv::Mat& mat, ColorMat & colorMat);
 };
 
 

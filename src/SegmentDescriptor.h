@@ -11,10 +11,15 @@
 #include "BoundingBox.h"
 
 class SegmentDescriptor {
+private:
 	BoundingBox boundingBox;
 	int area;
 	Color color;
 	double widthHeightRatio;
+	std::vector<std::pair<int, int>> points;
+	std::pair<int, int> cOG;
+public:
+	const std::pair<int, int> &getCOG() const;
 
 public:
 	SegmentDescriptor(std::vector<std::pair<int, int>> segment, Color color);
@@ -34,6 +39,10 @@ public:
 	double getWidthHeightRatio() const;
 
 	void setWidthHeightRatio(double widthHeightRatio);
+
+	const std::vector<std::pair<int, int>> &getPoints() const;
+
+	SegmentDescriptor addPoints(SegmentDescriptor &b);
 };
 
 
