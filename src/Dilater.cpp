@@ -3,12 +3,12 @@
 //
 
 #include "Dilater.h"
-#include "SegmentationProcessor.h"
+#include "Segmentators/SegmentationProcessor.h"
 
 void Dilater::dilate(cv::Mat &image) {
 	int imageWidth = image.cols;
 	int imageHeight = image.rows;
-//	cv::Mat filtered(imageHeight, imageWidth, image.type());
+
 	cv::Mat_<cv::Vec3b> filtered = image.clone();
 
 	cv::Mat_<cv::Vec3b> filtered_(filtered);

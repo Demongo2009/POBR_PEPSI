@@ -1,7 +1,7 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <vector>
-#include "SegmentDescriptor.h"
+#include "Segmentators/SegmentDescriptor.h"
 #include "Scalers/NearestNeighbour.h"
 #include "Scalers/Bilinear.h"
 #include "Scalers/IScaler.h"
@@ -10,12 +10,12 @@
 #include "Filters/Median.h"
 #include "Filters/Lowpass.h"
 #include "Filters/Highpass.h"
-#include "SegmentationProcessor.h"
-#include "TraitDetector.h"
-#include "ObjectRecogniser.h"
+#include "Segmentators/SegmentationProcessor.h"
+#include "ObjectDetection/TraitDetector.h"
+#include "ObjectDetection/ObjectRecogniser.h"
 #include "Dilater.h"
-#include "HistogramEqualizer.h"
-#include "ColorReducer.h"
+#include "ColorModificators/HistogramEqualizer.h"
+#include "ColorModificators/ColorReducer.h"
 
 void runPrescaling(cv::Mat& image, int algorithm);
 void runFiltering(cv::Mat& image, int algorithm);
@@ -43,18 +43,15 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 
-
-
 	runPrescaling(image, atoi(argv[2]));
 	cv::Mat ogImage = image.clone();
 	cv::imshow("og", ogImage);
 //	runColorReduction(image);
 //	runFiltering(image, atoi(argv[3]));
-		runDilation(image);
+	runDilation(image);
 
 	runHighpassFiltering(image);
 	runDilation(image);
-
 //	runHighpassFiltering(image);
 //	runHistogramEqualizer(image);
 

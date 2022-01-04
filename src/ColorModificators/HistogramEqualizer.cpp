@@ -6,14 +6,14 @@
 
 void HistogramEqualizer::equalize(cv::Mat &mat) {
 
-	const std::array<int, 256> histogram = this->createHistogram(mat);
+	std::array<int, 256> histogram = createHistogram(mat);
 	int pixelCount = mat.rows * mat.cols;
-	const std::array<int, 256> lut = this->createLookuptable(histogram, pixelCount);
-	mat = this->applyLUT(mat, lut);
+	std::array<int, 256> lut = createLookuptable(histogram, pixelCount);
+	this->applyLUT(mat, lut);
 }
 
 
-const std::array<int, 256> HistogramEqualizer::createHistogram(cv::Mat& image) const {
+std::array<int, 256> HistogramEqualizer::createHistogram(cv::Mat& image) {
 	std::array<int, 256> histogram;
 	for(auto& value: histogram){
 		value = 0;
@@ -33,7 +33,7 @@ const std::array<int, 256> HistogramEqualizer::createHistogram(cv::Mat& image) c
 }
 
 
-const std::array<int, 256> HistogramEqualizer::createLookuptable(const std::array<int, 256> histogram, const int pixelCount) const {
+std::array<int, 256> HistogramEqualizer::createLookuptable(std::array<int, 256> histogram, int pixelCount){
 	std::array<int, 256> lookupTable;
 	int probabilitySum = 0;
 	std::transform(histogram.begin(), histogram.end(), lookupTable.begin(), [&probabilitySum, &pixelCount](int bucket) -> int {
@@ -44,7 +44,7 @@ const std::array<int, 256> HistogramEqualizer::createLookuptable(const std::arra
 	return lookupTable;
 }
 
-cv::Mat& HistogramEqualizer::applyLUT(cv::Mat& image, const std::array<int, 256> lut) const {
+void HistogramEqualizer::applyLUT(cv::Mat& image, std::array<int, 256> lut){
 	int imageWidth = image.cols;
 	int imageHeight = image.rows;
 
@@ -53,5 +53,5 @@ cv::Mat& HistogramEqualizer::applyLUT(cv::Mat& image, const std::array<int, 256>
 			image.at<cv::Vec3b>(j,i)[2] = lut[image.at<cv::Vec3b>(j,i)[2]];
 		}
 	}
-	return image;
+	return;
 }

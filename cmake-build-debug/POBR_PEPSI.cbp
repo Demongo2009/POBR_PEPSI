@@ -92,10 +92,16 @@
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/BoundingBox.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.cpp">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorModificators/ColorReducer.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorReducer.h">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorModificators/ColorReducer.h">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorModificators/HistogramEqualizer.cpp">
+			<Option target="POBR_PEPSI"/>
+		</Unit>
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ColorModificators/HistogramEqualizer.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Dilater.cpp">
@@ -125,16 +131,16 @@
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Filters/Median.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.cpp">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectDetection/ObjectRecogniser.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/HistogramEqualizer.h">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectDetection/ObjectRecogniser.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.cpp">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectDetection/TraitDetector.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectRecogniser.h">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/ObjectDetection/TraitDetector.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/Bilinear.cpp">
@@ -152,22 +158,16 @@
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Scalers/NearestNeighbour.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentDescriptor.cpp">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Segmentators/SegmentDescriptor.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentDescriptor.h">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Segmentators/SegmentDescriptor.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentationProcessor.cpp">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Segmentators/SegmentationProcessor.cpp">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/SegmentationProcessor.h">
-			<Option target="POBR_PEPSI"/>
-		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.cpp">
-			<Option target="POBR_PEPSI"/>
-		</Unit>
-		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/TraitDetector.h">
+		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/Segmentators/SegmentationProcessor.h">
 			<Option target="POBR_PEPSI"/>
 		</Unit>
 		<Unit filename="/home/demongo/CLionProjects/POBR_PEPSI/src/constants.h">

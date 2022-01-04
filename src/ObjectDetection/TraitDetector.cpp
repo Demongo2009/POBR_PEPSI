@@ -3,7 +3,7 @@
 //
 
 #include "TraitDetector.h"
-#include "constants.h"
+#include "../constants.h"
 #include <cmath>
 #include <iostream>
 
@@ -81,10 +81,10 @@ void TraitDetector::detectTraits(std::vector<SegmentDescriptor> &segments,
 		switch (segment.getColor()) {
 			case Color::RED:
 				std::cout << norms[0] << " " <<
-				   norms[1] << " " <<
-								   norms[2] << " " <<
-												   norms[3] << " " <<
-																   norms[4] << " " <<
+							norms[1] << " " <<
+					   		norms[2] << " " <<
+						   norms[3] << " " <<
+						   norms[4] << " " <<
 				   segment.getWidthHeightRatio() << " RED\n";
 
 

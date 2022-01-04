@@ -153,29 +153,53 @@ src/BoundingBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.s
 .PHONY : src/BoundingBox.cpp.s
 
-src/ColorReducer.o: src/ColorReducer.cpp.o
-.PHONY : src/ColorReducer.o
+src/ColorModificators/ColorReducer.o: src/ColorModificators/ColorReducer.cpp.o
+.PHONY : src/ColorModificators/ColorReducer.o
 
 # target to build an object file
-src/ColorReducer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o
-.PHONY : src/ColorReducer.cpp.o
+src/ColorModificators/ColorReducer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/ColorReducer.cpp.o
+.PHONY : src/ColorModificators/ColorReducer.cpp.o
 
-src/ColorReducer.i: src/ColorReducer.cpp.i
-.PHONY : src/ColorReducer.i
+src/ColorModificators/ColorReducer.i: src/ColorModificators/ColorReducer.cpp.i
+.PHONY : src/ColorModificators/ColorReducer.i
 
 # target to preprocess a source file
-src/ColorReducer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.i
-.PHONY : src/ColorReducer.cpp.i
+src/ColorModificators/ColorReducer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/ColorReducer.cpp.i
+.PHONY : src/ColorModificators/ColorReducer.cpp.i
 
-src/ColorReducer.s: src/ColorReducer.cpp.s
-.PHONY : src/ColorReducer.s
+src/ColorModificators/ColorReducer.s: src/ColorModificators/ColorReducer.cpp.s
+.PHONY : src/ColorModificators/ColorReducer.s
 
 # target to generate assembly for a file
-src/ColorReducer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.s
-.PHONY : src/ColorReducer.cpp.s
+src/ColorModificators/ColorReducer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/ColorReducer.cpp.s
+.PHONY : src/ColorModificators/ColorReducer.cpp.s
+
+src/ColorModificators/HistogramEqualizer.o: src/ColorModificators/HistogramEqualizer.cpp.o
+.PHONY : src/ColorModificators/HistogramEqualizer.o
+
+# target to build an object file
+src/ColorModificators/HistogramEqualizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/HistogramEqualizer.cpp.o
+.PHONY : src/ColorModificators/HistogramEqualizer.cpp.o
+
+src/ColorModificators/HistogramEqualizer.i: src/ColorModificators/HistogramEqualizer.cpp.i
+.PHONY : src/ColorModificators/HistogramEqualizer.i
+
+# target to preprocess a source file
+src/ColorModificators/HistogramEqualizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/HistogramEqualizer.cpp.i
+.PHONY : src/ColorModificators/HistogramEqualizer.cpp.i
+
+src/ColorModificators/HistogramEqualizer.s: src/ColorModificators/HistogramEqualizer.cpp.s
+.PHONY : src/ColorModificators/HistogramEqualizer.s
+
+# target to generate assembly for a file
+src/ColorModificators/HistogramEqualizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/HistogramEqualizer.cpp.s
+.PHONY : src/ColorModificators/HistogramEqualizer.cpp.s
 
 src/Dilater.o: src/Dilater.cpp.o
 .PHONY : src/Dilater.o
@@ -273,53 +297,53 @@ src/Filters/Median.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.s
 .PHONY : src/Filters/Median.cpp.s
 
-src/HistogramEqualizer.o: src/HistogramEqualizer.cpp.o
-.PHONY : src/HistogramEqualizer.o
+src/ObjectDetection/ObjectRecogniser.o: src/ObjectDetection/ObjectRecogniser.cpp.o
+.PHONY : src/ObjectDetection/ObjectRecogniser.o
 
 # target to build an object file
-src/HistogramEqualizer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o
-.PHONY : src/HistogramEqualizer.cpp.o
+src/ObjectDetection/ObjectRecogniser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/ObjectRecogniser.cpp.o
+.PHONY : src/ObjectDetection/ObjectRecogniser.cpp.o
 
-src/HistogramEqualizer.i: src/HistogramEqualizer.cpp.i
-.PHONY : src/HistogramEqualizer.i
+src/ObjectDetection/ObjectRecogniser.i: src/ObjectDetection/ObjectRecogniser.cpp.i
+.PHONY : src/ObjectDetection/ObjectRecogniser.i
 
 # target to preprocess a source file
-src/HistogramEqualizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.i
-.PHONY : src/HistogramEqualizer.cpp.i
+src/ObjectDetection/ObjectRecogniser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/ObjectRecogniser.cpp.i
+.PHONY : src/ObjectDetection/ObjectRecogniser.cpp.i
 
-src/HistogramEqualizer.s: src/HistogramEqualizer.cpp.s
-.PHONY : src/HistogramEqualizer.s
+src/ObjectDetection/ObjectRecogniser.s: src/ObjectDetection/ObjectRecogniser.cpp.s
+.PHONY : src/ObjectDetection/ObjectRecogniser.s
 
 # target to generate assembly for a file
-src/HistogramEqualizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.s
-.PHONY : src/HistogramEqualizer.cpp.s
+src/ObjectDetection/ObjectRecogniser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/ObjectRecogniser.cpp.s
+.PHONY : src/ObjectDetection/ObjectRecogniser.cpp.s
 
-src/ObjectRecogniser.o: src/ObjectRecogniser.cpp.o
-.PHONY : src/ObjectRecogniser.o
+src/ObjectDetection/TraitDetector.o: src/ObjectDetection/TraitDetector.cpp.o
+.PHONY : src/ObjectDetection/TraitDetector.o
 
 # target to build an object file
-src/ObjectRecogniser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o
-.PHONY : src/ObjectRecogniser.cpp.o
+src/ObjectDetection/TraitDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/TraitDetector.cpp.o
+.PHONY : src/ObjectDetection/TraitDetector.cpp.o
 
-src/ObjectRecogniser.i: src/ObjectRecogniser.cpp.i
-.PHONY : src/ObjectRecogniser.i
+src/ObjectDetection/TraitDetector.i: src/ObjectDetection/TraitDetector.cpp.i
+.PHONY : src/ObjectDetection/TraitDetector.i
 
 # target to preprocess a source file
-src/ObjectRecogniser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.i
-.PHONY : src/ObjectRecogniser.cpp.i
+src/ObjectDetection/TraitDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/TraitDetector.cpp.i
+.PHONY : src/ObjectDetection/TraitDetector.cpp.i
 
-src/ObjectRecogniser.s: src/ObjectRecogniser.cpp.s
-.PHONY : src/ObjectRecogniser.s
+src/ObjectDetection/TraitDetector.s: src/ObjectDetection/TraitDetector.cpp.s
+.PHONY : src/ObjectDetection/TraitDetector.s
 
 # target to generate assembly for a file
-src/ObjectRecogniser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.s
-.PHONY : src/ObjectRecogniser.cpp.s
+src/ObjectDetection/TraitDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/TraitDetector.cpp.s
+.PHONY : src/ObjectDetection/TraitDetector.cpp.s
 
 src/Scalers/Bilinear.o: src/Scalers/Bilinear.cpp.o
 .PHONY : src/Scalers/Bilinear.o
@@ -369,77 +393,53 @@ src/Scalers/NearestNeighbour.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Scalers/NearestNeighbour.cpp.s
 .PHONY : src/Scalers/NearestNeighbour.cpp.s
 
-src/SegmentDescriptor.o: src/SegmentDescriptor.cpp.o
-.PHONY : src/SegmentDescriptor.o
+src/Segmentators/SegmentDescriptor.o: src/Segmentators/SegmentDescriptor.cpp.o
+.PHONY : src/Segmentators/SegmentDescriptor.o
 
 # target to build an object file
-src/SegmentDescriptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.o
-.PHONY : src/SegmentDescriptor.cpp.o
+src/Segmentators/SegmentDescriptor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentDescriptor.cpp.o
+.PHONY : src/Segmentators/SegmentDescriptor.cpp.o
 
-src/SegmentDescriptor.i: src/SegmentDescriptor.cpp.i
-.PHONY : src/SegmentDescriptor.i
+src/Segmentators/SegmentDescriptor.i: src/Segmentators/SegmentDescriptor.cpp.i
+.PHONY : src/Segmentators/SegmentDescriptor.i
 
 # target to preprocess a source file
-src/SegmentDescriptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.i
-.PHONY : src/SegmentDescriptor.cpp.i
+src/Segmentators/SegmentDescriptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentDescriptor.cpp.i
+.PHONY : src/Segmentators/SegmentDescriptor.cpp.i
 
-src/SegmentDescriptor.s: src/SegmentDescriptor.cpp.s
-.PHONY : src/SegmentDescriptor.s
+src/Segmentators/SegmentDescriptor.s: src/Segmentators/SegmentDescriptor.cpp.s
+.PHONY : src/Segmentators/SegmentDescriptor.s
 
 # target to generate assembly for a file
-src/SegmentDescriptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.s
-.PHONY : src/SegmentDescriptor.cpp.s
+src/Segmentators/SegmentDescriptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentDescriptor.cpp.s
+.PHONY : src/Segmentators/SegmentDescriptor.cpp.s
 
-src/SegmentationProcessor.o: src/SegmentationProcessor.cpp.o
-.PHONY : src/SegmentationProcessor.o
+src/Segmentators/SegmentationProcessor.o: src/Segmentators/SegmentationProcessor.cpp.o
+.PHONY : src/Segmentators/SegmentationProcessor.o
 
 # target to build an object file
-src/SegmentationProcessor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o
-.PHONY : src/SegmentationProcessor.cpp.o
+src/Segmentators/SegmentationProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentationProcessor.cpp.o
+.PHONY : src/Segmentators/SegmentationProcessor.cpp.o
 
-src/SegmentationProcessor.i: src/SegmentationProcessor.cpp.i
-.PHONY : src/SegmentationProcessor.i
-
-# target to preprocess a source file
-src/SegmentationProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.i
-.PHONY : src/SegmentationProcessor.cpp.i
-
-src/SegmentationProcessor.s: src/SegmentationProcessor.cpp.s
-.PHONY : src/SegmentationProcessor.s
-
-# target to generate assembly for a file
-src/SegmentationProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.s
-.PHONY : src/SegmentationProcessor.cpp.s
-
-src/TraitDetector.o: src/TraitDetector.cpp.o
-.PHONY : src/TraitDetector.o
-
-# target to build an object file
-src/TraitDetector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o
-.PHONY : src/TraitDetector.cpp.o
-
-src/TraitDetector.i: src/TraitDetector.cpp.i
-.PHONY : src/TraitDetector.i
+src/Segmentators/SegmentationProcessor.i: src/Segmentators/SegmentationProcessor.cpp.i
+.PHONY : src/Segmentators/SegmentationProcessor.i
 
 # target to preprocess a source file
-src/TraitDetector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.i
-.PHONY : src/TraitDetector.cpp.i
+src/Segmentators/SegmentationProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentationProcessor.cpp.i
+.PHONY : src/Segmentators/SegmentationProcessor.cpp.i
 
-src/TraitDetector.s: src/TraitDetector.cpp.s
-.PHONY : src/TraitDetector.s
+src/Segmentators/SegmentationProcessor.s: src/Segmentators/SegmentationProcessor.cpp.s
+.PHONY : src/Segmentators/SegmentationProcessor.s
 
 # target to generate assembly for a file
-src/TraitDetector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.s
-.PHONY : src/TraitDetector.cpp.s
+src/Segmentators/SegmentationProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/POBR_PEPSI.dir/build.make CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentationProcessor.cpp.s
+.PHONY : src/Segmentators/SegmentationProcessor.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -477,9 +477,12 @@ help:
 	@echo "... src/BoundingBox.o"
 	@echo "... src/BoundingBox.i"
 	@echo "... src/BoundingBox.s"
-	@echo "... src/ColorReducer.o"
-	@echo "... src/ColorReducer.i"
-	@echo "... src/ColorReducer.s"
+	@echo "... src/ColorModificators/ColorReducer.o"
+	@echo "... src/ColorModificators/ColorReducer.i"
+	@echo "... src/ColorModificators/ColorReducer.s"
+	@echo "... src/ColorModificators/HistogramEqualizer.o"
+	@echo "... src/ColorModificators/HistogramEqualizer.i"
+	@echo "... src/ColorModificators/HistogramEqualizer.s"
 	@echo "... src/Dilater.o"
 	@echo "... src/Dilater.i"
 	@echo "... src/Dilater.s"
@@ -492,27 +495,24 @@ help:
 	@echo "... src/Filters/Median.o"
 	@echo "... src/Filters/Median.i"
 	@echo "... src/Filters/Median.s"
-	@echo "... src/HistogramEqualizer.o"
-	@echo "... src/HistogramEqualizer.i"
-	@echo "... src/HistogramEqualizer.s"
-	@echo "... src/ObjectRecogniser.o"
-	@echo "... src/ObjectRecogniser.i"
-	@echo "... src/ObjectRecogniser.s"
+	@echo "... src/ObjectDetection/ObjectRecogniser.o"
+	@echo "... src/ObjectDetection/ObjectRecogniser.i"
+	@echo "... src/ObjectDetection/ObjectRecogniser.s"
+	@echo "... src/ObjectDetection/TraitDetector.o"
+	@echo "... src/ObjectDetection/TraitDetector.i"
+	@echo "... src/ObjectDetection/TraitDetector.s"
 	@echo "... src/Scalers/Bilinear.o"
 	@echo "... src/Scalers/Bilinear.i"
 	@echo "... src/Scalers/Bilinear.s"
 	@echo "... src/Scalers/NearestNeighbour.o"
 	@echo "... src/Scalers/NearestNeighbour.i"
 	@echo "... src/Scalers/NearestNeighbour.s"
-	@echo "... src/SegmentDescriptor.o"
-	@echo "... src/SegmentDescriptor.i"
-	@echo "... src/SegmentDescriptor.s"
-	@echo "... src/SegmentationProcessor.o"
-	@echo "... src/SegmentationProcessor.i"
-	@echo "... src/SegmentationProcessor.s"
-	@echo "... src/TraitDetector.o"
-	@echo "... src/TraitDetector.i"
-	@echo "... src/TraitDetector.s"
+	@echo "... src/Segmentators/SegmentDescriptor.o"
+	@echo "... src/Segmentators/SegmentDescriptor.i"
+	@echo "... src/Segmentators/SegmentDescriptor.s"
+	@echo "... src/Segmentators/SegmentationProcessor.o"
+	@echo "... src/Segmentators/SegmentationProcessor.i"
+	@echo "... src/Segmentators/SegmentationProcessor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -6,7 +6,7 @@
 #include <opencv2/opencv.hpp>
 #include "SegmentationProcessor.h"
 #include "SegmentDescriptor.h"
-#include "constants.h"
+#include "../constants.h"
 
 
 std::vector<SegmentDescriptor> SegmentationProcessor::segmentImage(cv::Mat &mat) {
@@ -256,10 +256,7 @@ ColorMat SegmentationProcessor::toColors(cv::Mat &mat) {
 }
 
 bool SegmentationProcessor::checkRed(cv::Vec3b &vec) {
-//	if(vec[0] < 120 && vec[1] < 120 && vec[2] < 255 && vec[2] > 150){
-//		return true;
-//	}
-//	return false;
+
 	rgb rgb1;
 	rgb1.r = vec[2];
 	rgb1.g = vec[1];
@@ -272,10 +269,6 @@ bool SegmentationProcessor::checkRed(cv::Vec3b &vec) {
 }
 
 bool SegmentationProcessor::checkBlue(cv::Vec3b &vec) {
-//	if(vec[0] < 255 && vec[0] > 150 && vec[1] < 120 && vec[2] < 120){
-//		return true;
-//	}
-//	return false;
 	rgb rgb1;
 	rgb1.r = vec[2];
 	rgb1.g = vec[1];
@@ -289,10 +282,7 @@ bool SegmentationProcessor::checkBlue(cv::Vec3b &vec) {
 }
 
 bool SegmentationProcessor::checkWhite(cv::Vec3b &vec) {
-//	if(vec[0] > 200 && vec[1] > 200 && vec[2] > 200){
-//		return true;
-//	}
-//	return false;
+
 	rgb rgb1;
 	rgb1.r = vec[2];
 	rgb1.g = vec[1];

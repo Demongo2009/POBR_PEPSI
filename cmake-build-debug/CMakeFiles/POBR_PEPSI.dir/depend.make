@@ -4,9 +4,33 @@
 CMakeFiles/POBR_PEPSI.dir/src/BoundingBox.cpp.o: \
  ../src/BoundingBox.cpp \
  ../src/BoundingBox.h
-CMakeFiles/POBR_PEPSI.dir/src/ColorReducer.cpp.o: \
- ../src/ColorReducer.cpp \
- ../src/ColorReducer.h \
+CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/ColorReducer.cpp.o: \
+ ../src/ColorModificators/ColorReducer.cpp \
+ ../src/ColorModificators/ColorReducer.h \
+ /usr/local/include/opencv4/opencv2/core/base.hpp \
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
+ /usr/local/include/opencv4/opencv2/core/check.hpp \
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h \
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h \
+ /usr/local/include/opencv4/opencv2/core/mat.hpp \
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
+ /usr/local/include/opencv4/opencv2/core/matx.hpp \
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp \
+ /usr/local/include/opencv4/opencv2/core/traits.hpp \
+ /usr/local/include/opencv4/opencv2/core/types.hpp \
+ /usr/local/include/opencv4/opencv2/core/version.hpp \
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+CMakeFiles/POBR_PEPSI.dir/src/ColorModificators/HistogramEqualizer.cpp.o: \
+ ../src/ColorModificators/HistogramEqualizer.cpp \
+ ../src/ColorModificators/HistogramEqualizer.h \
  /usr/local/include/opencv4/opencv2/core/base.hpp \
  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
  /usr/local/include/opencv4/opencv2/core/check.hpp \
@@ -32,8 +56,8 @@ CMakeFiles/POBR_PEPSI.dir/src/Dilater.cpp.o: \
  ../src/BoundingBox.h \
  ../src/Dilater.cpp \
  ../src/Dilater.h \
- ../src/SegmentDescriptor.h \
- ../src/SegmentationProcessor.h \
+ ../src/Segmentators/SegmentDescriptor.h \
+ ../src/Segmentators/SegmentationProcessor.h \
  ../src/enums.h \
  /usr/local/include/opencv4/opencv2/core/base.hpp \
  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
@@ -225,35 +249,11 @@ CMakeFiles/POBR_PEPSI.dir/src/Filters/Median.cpp.o: \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/videoio.hpp
-CMakeFiles/POBR_PEPSI.dir/src/HistogramEqualizer.cpp.o: \
- ../src/HistogramEqualizer.cpp \
- ../src/HistogramEqualizer.h \
- /usr/local/include/opencv4/opencv2/core/base.hpp \
- /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
- /usr/local/include/opencv4/opencv2/core/check.hpp \
- /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
- /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h \
- /usr/local/include/opencv4/opencv2/core/cvdef.h \
- /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
- /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
- /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
- /usr/local/include/opencv4/opencv2/core/hal/interface.h \
- /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h \
- /usr/local/include/opencv4/opencv2/core/mat.hpp \
- /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
- /usr/local/include/opencv4/opencv2/core/matx.hpp \
- /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
- /usr/local/include/opencv4/opencv2/core/saturate.hpp \
- /usr/local/include/opencv4/opencv2/core/traits.hpp \
- /usr/local/include/opencv4/opencv2/core/types.hpp \
- /usr/local/include/opencv4/opencv2/core/version.hpp \
- /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
- /usr/local/include/opencv4/opencv2/opencv_modules.hpp
-CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o: \
+CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/ObjectRecogniser.cpp.o: \
  ../src/BoundingBox.h \
- ../src/ObjectRecogniser.cpp \
- ../src/ObjectRecogniser.h \
- ../src/SegmentDescriptor.h \
+ ../src/ObjectDetection/ObjectRecogniser.cpp \
+ ../src/ObjectDetection/ObjectRecogniser.h \
+ ../src/Segmentators/SegmentDescriptor.h \
  ../src/constants.h \
  ../src/enums.h \
  /usr/local/include/opencv4/opencv2/calib3d.hpp \
@@ -359,6 +359,13 @@ CMakeFiles/POBR_PEPSI.dir/src/ObjectRecogniser.cpp.o: \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/videoio.hpp
+CMakeFiles/POBR_PEPSI.dir/src/ObjectDetection/TraitDetector.cpp.o: \
+ ../src/BoundingBox.h \
+ ../src/ObjectDetection/TraitDetector.cpp \
+ ../src/ObjectDetection/TraitDetector.h \
+ ../src/Segmentators/SegmentDescriptor.h \
+ ../src/constants.h \
+ ../src/enums.h
 CMakeFiles/POBR_PEPSI.dir/src/Scalers/Bilinear.cpp.o: \
  ../src/Scalers/Bilinear.cpp \
  ../src/Scalers/Bilinear.h \
@@ -411,16 +418,16 @@ CMakeFiles/POBR_PEPSI.dir/src/Scalers/NearestNeighbour.cpp.o: \
  /usr/local/include/opencv4/opencv2/core/version.hpp \
  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
-CMakeFiles/POBR_PEPSI.dir/src/SegmentDescriptor.cpp.o: \
+CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentDescriptor.cpp.o: \
  ../src/BoundingBox.h \
- ../src/SegmentDescriptor.cpp \
- ../src/SegmentDescriptor.h \
+ ../src/Segmentators/SegmentDescriptor.cpp \
+ ../src/Segmentators/SegmentDescriptor.h \
  ../src/enums.h
-CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o: \
+CMakeFiles/POBR_PEPSI.dir/src/Segmentators/SegmentationProcessor.cpp.o: \
  ../src/BoundingBox.h \
- ../src/SegmentDescriptor.h \
- ../src/SegmentationProcessor.cpp \
- ../src/SegmentationProcessor.h \
+ ../src/Segmentators/SegmentDescriptor.h \
+ ../src/Segmentators/SegmentationProcessor.cpp \
+ ../src/Segmentators/SegmentationProcessor.h \
  ../src/constants.h \
  ../src/enums.h \
  /usr/local/include/opencv4/opencv2/calib3d.hpp \
@@ -526,29 +533,22 @@ CMakeFiles/POBR_PEPSI.dir/src/SegmentationProcessor.cpp.o: \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/videoio.hpp
-CMakeFiles/POBR_PEPSI.dir/src/TraitDetector.cpp.o: \
- ../src/BoundingBox.h \
- ../src/SegmentDescriptor.h \
- ../src/TraitDetector.cpp \
- ../src/TraitDetector.h \
- ../src/constants.h \
- ../src/enums.h
 CMakeFiles/POBR_PEPSI.dir/src/main.cpp.o: \
  ../src/BoundingBox.h \
- ../src/ColorReducer.h \
+ ../src/ColorModificators/ColorReducer.h \
+ ../src/ColorModificators/HistogramEqualizer.h \
  ../src/Dilater.h \
  ../src/Filters/Highpass.h \
  ../src/Filters/IFilter.h \
  ../src/Filters/Lowpass.h \
  ../src/Filters/Median.h \
- ../src/HistogramEqualizer.h \
- ../src/ObjectRecogniser.h \
+ ../src/ObjectDetection/ObjectRecogniser.h \
+ ../src/ObjectDetection/TraitDetector.h \
  ../src/Scalers/Bilinear.h \
  ../src/Scalers/IScaler.h \
  ../src/Scalers/NearestNeighbour.h \
- ../src/SegmentDescriptor.h \
- ../src/SegmentationProcessor.h \
- ../src/TraitDetector.h \
+ ../src/Segmentators/SegmentDescriptor.h \
+ ../src/Segmentators/SegmentationProcessor.h \
  ../src/constants.h \
  ../src/enums.h \
  ../src/main.cpp \

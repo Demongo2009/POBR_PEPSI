@@ -3,7 +3,7 @@
 //
 
 #include "ObjectRecogniser.h"
-#include "constants.h"
+#include "../constants.h"
 #include <cmath>
 #include <algorithm>
 #include <iostream>
@@ -78,7 +78,7 @@ std::vector<SegmentDescriptor> ObjectRecogniser::findRedBluePart(std::map<Color,
 
 	return objects;
 }
-cv::Mat drawSegmentBoundary(cv::Mat& image, BoundingBox bb, cv::Vec3b line);
+
 
 std::vector<SegmentDescriptor> ObjectRecogniser::findWhiteBackground(cv::Mat& image, std::vector<SegmentDescriptor> objects,
 																	  std::map<Color, std::vector<SegmentDescriptor>>& bins) {
@@ -105,8 +105,8 @@ std::vector<SegmentDescriptor> ObjectRecogniser::findWhiteBackground(cv::Mat& im
 	return objectsWithBackgrounds;
 }
 
-cv::Mat drawSegmentBoundary(cv::Mat& image, BoundingBox bb, cv::Vec3b line = {0, 0, 255}){
-//	const cv::Vec3b line = {0, 0, 255};
+
+cv::Mat ObjectRecogniser::drawSegmentBoundary(cv::Mat& image, BoundingBox bb, cv::Vec3b line){
 	cv::Mat filtered= image.clone();
 	cv::Mat_<cv::Vec3b> filtered_(filtered);
 

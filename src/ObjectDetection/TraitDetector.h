@@ -8,8 +8,8 @@
 
 #include <vector>
 #include <map>
-#include "enums.h"
-#include "SegmentDescriptor.h"
+#include "../enums.h"
+#include "../Segmentators/SegmentDescriptor.h"
 
 class TraitDetector {
 

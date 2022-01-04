@@ -9,15 +9,14 @@
 #include <opencv2/core/mat.hpp>
 
 class HistogramEqualizer {
+	std::array<int, 256> createLookuptable(std::array<int, 256> histogram, int pixelCount);
 
+	void applyLUT(cv::Mat &image, std::array<int, 256> lut);
+
+	static std::array<int, 256> createHistogram(cv::Mat &image) ;
 public:
 	void equalize(cv::Mat &mat);
 
-	const std::array<int, 256> createLookuptable(const std::array<int, 256> histogram, const int pixelCount) const;
-
-	cv::Mat &applyLUT(cv::Mat &image, const std::array<int, 256> lut) const;
-
-	const std::array<int, 256> createHistogram(cv::Mat &image) const;
 };
 
 

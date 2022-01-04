@@ -19,10 +19,10 @@ void ColorReducer::reduce(cv::Mat &mat) {
 	}
 }
 
-const std::array<uchar, 256> ColorReducer::createLookupTable(){
+std::array<uchar, 256> ColorReducer::createLookupTable(){
 	std::array<uchar, 256> table;
 	for(int i = 0; i < 256; ++i){
-		table[i] = (uchar)(200 * (i / 200));
+		table[i] = (uchar)(10 * (i / 10));
 	}
 	return table;
 }

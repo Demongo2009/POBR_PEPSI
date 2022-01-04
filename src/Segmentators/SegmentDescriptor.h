@@ -7,8 +7,8 @@
 
 
 #include <vector>
-#include "enums.h"
-#include "BoundingBox.h"
+#include "../enums.h"
+#include "../BoundingBox.h"
 
 class SegmentDescriptor {
 private:

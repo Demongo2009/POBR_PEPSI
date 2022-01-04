@@ -54,7 +54,6 @@ BoundingBox::BoundingBox(int x1, int y1, int x2, int y2){
 }
 
 bool BoundingBox::isInside(std::pair<int, int> point) {
-//	std::cout<< "point " << point.first << ":" << point.second << " BB: " << x1 << " " << y1 << " " << x2 << " " << y2 << "\n";
 
 	return point.first > x1 && point.first < x2 && point.second > y1 && point.second < y2;
 }
